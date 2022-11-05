@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Split Bill App</title>
+        <link rel="stylesheet", href="split.css">
+        <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+        <script src="split.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container" id="container">
+                <form>
+                    <span class="text">Bill Total:</span> <br>
+                    <input type="text" class="inputfield1" id="inputfield1" placeholder="Rs" oninput="valid(this)">
+                    <br><br>
+                    <span class="text">Tip:</span> <br>
+                    <input type="text" class="inputfield2" id="inputfield2" placeholder="0%-100%" oninput="valid1(this)">
+                    <br>
+                </form>
+                <div class="peopletotal">
+                    <div class="people">
+                        <span class="text">No. of People:</span><br><br>
+                        <button class="button" id="button">+</button>
+                        <span id="noofpple">1</span>
+                        <button class="button" id="button">-</button>
+                    </div>
+                    <div class="total">
+                        <span class="text">Total per Person:</span><br><br>
+                        <span class="totalamt" >Rs <span id="totalamt">0</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+		    var val = document.getElementById("inputfield1").value;
+            var val1=document.getElementById("inputfield2").value;
+        </script>
+    </body>
+</html>

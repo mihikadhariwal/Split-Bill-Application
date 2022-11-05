@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: mediumslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2rem;
+    font-family: 'Varela Round'
+}
+
+.container{
+    background-color: rgb(39, 39, 59);
+    height: 70vh;
+    color:white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 20px black;
+}
+
+.peopletotal{
+    display: flex;
+    /* width: 100%; */
+    gap: 5rem;
+    padding: 1rem;
+    padding-left:0;
+}
+
+form{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.inputfield1, .inputfield2{
+    width: 100%;
+    background-color: rgb(73, 73, 106);
+    border: 0;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+.text{
+    margin-left: 0.3rem;
+}
+
+.totalamt{
+    font-size: 1.8rem;
+}
+
+button{
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: 0.3rem;
+    background-color: rgb(139, 139, 236);
+}
